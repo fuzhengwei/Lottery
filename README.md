@@ -1,9 +1,6 @@
 # Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
 
-作者：小傅哥
-<br/>博客：[https://bugstack.cn](https://bugstack.cn)
-
->沉淀、分享、成长，让自己和他人都能有所收获！
+[![](https://bugstack.cn/images/article/project/lottery/introduce/introduce-220101-01.png)](https://t.zsxq.com/jAi2nUf)
 
 - **加入项目**：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf) - 加入后在星球置顶消息可以申请加入项目组，`公众号：bugstack虫洞栈 回复：星球 可以获得加入优惠券`
 - **代码仓库**：[https://gitcode.net/KnowledgePlanet/Lottery](https://gitcode.net/KnowledgePlanet/Lottery) - `必须加入星球：码农会锁，在置顶🔝消息，申请授权后才可以访问。`
@@ -27,7 +24,7 @@
 
 |  项目学习意见（收集结果）    |
 | ---- |
-|   ![图 1-1](/images/article/project/lottery/Part-2/1-01.png)   |
+|   ![图 1-1](https://bugstack.cn/images/article/project/lottery/Part-2/1-01.png)   |
 
 - [项目学习意见（收集结果）.xlsx](https://gitcode.net/KnowledgePlanet/Lottery/-/blob/master/doc/assets/excel/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%E6%84%8F%E8%A7%81%EF%BC%88%E6%94%B6%E9%9B%86%E7%BB%93%E6%9E%9C%EF%BC%89.xlsx)
 
@@ -37,7 +34,7 @@ So！基于DDD领域驱动设计的四层架构**抽奖系统**，开始啦！�
 
 ## 二、呀，能学东西！
 
-![图 1-2](/images/article/project/lottery/Part-2/1-02.png)
+![图 1-2](https://bugstack.cn/images/article/project/lottery/Part-2/1-02.png)
 
 一个以真实场景`实践技术栈整合`开发实际需求的项目，势必会因为要完成需求而引入各项技术栈的使用，也会由于要解决互联网中C端场景中的三高问题，而使用相应的技术实现不同类别解决与方案，我们也可以把此类解决方案理解为DDD中的业务领域模型开发。在这个设计和开发的过程中会涉及到`架构设计`、`技术应用`、`场景实现`，每一块内容都会有非常多的实践知识，可以让读者学到东西。
 
@@ -53,7 +50,7 @@ So！基于DDD领域驱动设计的四层架构**抽奖系统**，开始啦！�
 
 **其他所需环境如下(mysql\kafka\zk\redis\xxl-job)：**
 
-![](/images/article/project/lottery/introduce/portainer.png)
+![](https://bugstack.cn/images/article/project/lottery/introduce/portainer.png)
 
 - 不只是 DDD 分布式项目开发，你还可以学习到关于 Docker 的实践使用
 
