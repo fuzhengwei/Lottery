@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itedus.lottery.infrastructure.dao.IActivityDao">
+
+    <insert id="insert" parameterType="cn.itedus.lottery.infrastructure.po.Activity">
+        INSERT INTO activity
+        (activityId, activityName, activityDesc,beginDateTime, endDateTime,
+        stockCount, takeCount, state, creator, createTime, updateTime)
+        VALUES
+        (#{activityId}, #{activityName}, #{activityDesc},#{beginDateTime}, #{endDateTime},
+         #{stockCount}, #{takeCount}, #{state}, #{creator}, now(), now())
+    </insert>
+
+    <select id="queryActivityById" parameterType="java.lang.Long" resultType="cn.itedus.lottery.infrastructure.po.Activity">
+        SELECT activityId, activityName, activityDesc,beginDateTime, endDateTime,
+        stockCount, takeCount, state, creator, createTime, updateTime
+        FROM activity
+        WHERE activityId = #{activityId}
+    </select>
+
+</mapper>
